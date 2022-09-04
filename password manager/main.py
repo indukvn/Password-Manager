@@ -76,11 +76,11 @@ username.insert(0, "your@mail_id")
 password = Entry(width=33)
 password.grid(column=1, row=3)
 
-btn1 = Button(text="Generate Password", command=generate_pass)
+btn1 = Button(text="Generate Password", command=generate_pass, bg="#FF8B8B")
 btn1.grid(column=2, row=3)
 
 
-btn2 = Button(text="Add", width=44, command=save)
+btn2 = Button(text="Add", width=44, command=save, bg="#EB4747", border=3)
 btn2.grid(column=1, row=4, columnspan=2)
 
 
